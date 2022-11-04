@@ -9,6 +9,6 @@
 # Once we have each method identified we can create a single line of code to puts our desired result
 
 
-weekend_plans = "this weekend, i am going to indian creek to climb and spend time with people i love"
+weekend_plans = "this weekend, i am going to indian creek to climb and spend time with people i love!"
 puts weekend_plans.split.map(&:capitalize).join(' ')
 

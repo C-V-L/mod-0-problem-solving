@@ -9,8 +9,6 @@
 
 climbing_destinations = ["Moab", "Yosemite", "Ceuse", "Kalymnos", "Arco", "Ten Sleep"]
 
-p climbing_destinations
-
 climbing_destinations.sort.each do |crag|
     puts "I can't wait to rope up in #{crag}"
 end
